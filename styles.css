@@ -1,0 +1,36 @@
+#floating-window {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 400px;
+    height: 300px;
+    z-index: 9999;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    resize: both;
+    overflow: hidden;
+}
+
+#floating-header {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    cursor: move;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#floating-content iframe {
+    width: 100%;
+    height: calc(100% - 40px);
+}
+
+#close-window {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}

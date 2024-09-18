@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Floating Window Extension",
+  "description": "Pop out a floating window within the current tab.",
+  "version": "1.1",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
